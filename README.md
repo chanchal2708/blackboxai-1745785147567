@@ -38,6 +38,19 @@ This project aims to develop an intelligent system that integrates multimodal sp
 
 ## Usage
 Run the main application:
+
+1. Prepare your audio and video data files.
+
+2. Modify `main.py` to load your audio and video data by replacing the placeholders:
+```python
+# Example to load audio data
+from utils import load_audio_file, load_video_frames
+
+audio_data = load_audio_file('path_to_audio_file.wav')
+video_data = load_video_frames('path_to_video_file.mp4')
+```
+
+3. Run the main application:
 ```
 python main.py
 ```
