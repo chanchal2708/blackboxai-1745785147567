@@ -1,0 +1,10 @@
+numpy
+scipy
+scikit-learn
+librosa
+opencv-python
+dlib
+face-recognition
+transformers
+torch
+torchaudio
